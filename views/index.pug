@@ -1,0 +1,299 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  title login - digital pathways
+  
+  style#applicationStylesheet(type='text/css').
+    body {
+    background:
+    linear-gradient(
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.95)
+    ),
+    url('/static/images/background.jpg');
+    height: 100vh;
+    background-size: cover;
+    }
+    input:focus {
+    outline: none;
+    }
+    .mediaViewInfo {
+    --web-view-name: Login;
+    --web-view-id: Login;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: fit;
+    --web-center-horizontally: true;
+    --web-center-vertically: true;
+    --web-enable-deep-linking: true;
+    }
+    :root {
+    --web-view-ids: Login;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    }
+    .Login_Class {
+    position: absolute;
+    box-sizing: border-box;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    --web-view-name: Login;
+    --web-view-id: Login;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: fit;
+    --web-center-horizontally: true;
+    --web-center-vertically: true;
+    --web-enable-deep-linking: true;
+    }
+    .Group_1_Class {
+    position: absolute;
+    width: 387px;
+    height: 161px;
+    left: 767px;
+    top: 70px;
+    overflow: visible;
+    }
+    .digital_Class {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 216px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(0,0,0,1);
+    }
+    .pathways_Class {
+    position: absolute;
+    left: 43px;
+    top: 68px;
+    overflow: visible;
+    width: 345px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(0,0,0,1);
+    }
+    .shaping_your_tech_future_Class {
+    position: absolute;
+    left: 715px;
+    top: 264px;
+    overflow: visible;
+    width: 491px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(46,46,46,1);
+    }
+    .NCDS_LOGO_CMYK_01_Class {
+    opacity: 0.796;
+    }
+    .NCDS_LOGO_CMYK_01 {
+    position: absolute;
+    overflow: visible;
+    width: 263px;
+    height: 263px;
+    left: 829px;
+    top: 372px;
+    }
+    .Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 715.5px;
+    top: 748.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .username_Class input[type='text'] {
+    position: absolute;
+    left: 716px;
+    top: 705px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    background-color: transparent;
+    }
+    .Group_31_Class {
+    position: absolute;
+    width: 220px;
+    height: 82px;
+    left: 850px;
+    top: 903px;
+    overflow: visible;
+    cursor: pointer;
+    background-color: transparent;
+    }
+    .Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    }
+    .login_Class {
+    position: absolute;
+    left: 85px;
+    top: 27px;
+    overflow: visible;
+    width: 54px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgba(112,112,112,1);
+    }
+    .not_interested__explore_other__Class {
+    position: absolute;
+    left: 795px;
+    top: 1020px;
+    overflow: visible;
+    width: 403px;
+    white-space: nowrap;
+    text-align: left;
+    text-decoration: underline;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(112,112,112,1);
+    }
+    .wednesday__20th_november_2019_Class {
+    position: absolute;
+    left: 81px;
+    top: 28px;
+    overflow: visible;
+    width: 309px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(112,112,112,1);
+    }
+    .Line_1_A0_Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 715.5px;
+    top: 851.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .you_have_not_taken_the_test_ye_Class {
+    position: absolute;
+    left: 810px;
+    top: 326px;
+    overflow: visible;
+    width: 287px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(255,112,112,1);
+    }
+    .password_Class input[type='password'] {
+    position: absolute;
+    left: 716px;
+    top: 808px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    background-color: transparent;
+    }
+    button {
+    background-color: transparent;
+    cursor: pointer;
+    }
+
+  script#applicationScript(type='text/javascript' src='/static/xd_javascript/index.js')
+
+#Login.Login_Class
+  .Group_1_Class
+    .digital_Class
+      span digital
+    .pathways_Class
+      span pathways
+
+  .shaping_your_tech_future_Class
+    span shaping your tech future
+
+  svg.NCDS_LOGO_CMYK_01
+    pattern#NCDS_LOGO_CMYK_01_A0_Ellipse_2_pattern(elementid='NCDS_LOGO_CMYK_01_A0_Ellipse_2' x='0' y='0' width='100%' height='100%')
+      image(x='0' y='0' width='100%' height='100%' href='/static/images/NCDS_LOGO_CMYK_01_A0_Ellipse_2_pattern.png' xlink:href='/static/images/NCDS_LOGO_CMYK_01_A0_Ellipse_2_pattern.png')
+    ellipse.NCDS_LOGO_CMYK_01_Class(fill='url(#NCDS_LOGO_CMYK_01_A0_Ellipse_2_pattern)' rx='131.5' ry='131.5' cx='131.5' cy='131.5')
+
+  svg.Line_1(viewbox='0 0 490 1')
+    path.Line_1_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+  form(action='home' method='POST')
+    .username_Class
+      input(type='text' name='username' placeholder='username' required='')
+    .password_Class
+      input(type='password' name='password' placeholder='password' required='')
+    button.Group_31_Class(type='submit')
+      svg.Rectangle_1
+        rect.Rectangle_1_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' rx='0' ry='0' x='0' y='0' width='220' height='82')
+      .login_Class
+        span login
+
+  form(action='about' method='POST')
+    button.not_interested__explore_other__Class(type='submit')
+      span wondering what digital pathways is?
+    
+  .you_have_not_taken_the_test_ye_Class
+    span #{incorrectPassword}
+
+  .wednesday__20th_november_2019_Class
+    span#date
+
+  svg.Line_1_A0_Line_2(viewbox='0 0 490 1')
+    path.Line_1_A0_Line_2_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+script.
+  let d = new Date();
+  let day = d.getDate();
+  let weekday = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'][d.getDay()];
+  let month = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'][d.getMonth()];
+  let year = d.getFullYear();
+  let suffix = (day == 1) || (day == 21) || (day == 31) ? 'st' :
+  (day == 2) || (day == 22) ? 'nd' :
+  (day == 3) || (day == 23) ? 'rd' : 'th';
+  let dateString = `${weekday}, ${day}${suffix} ${month} ${year}`;
+  document.getElementById('date').innerHTML = dateString;

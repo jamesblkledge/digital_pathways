@@ -1,0 +1,766 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  title survey - digital pathways
+
+  style#applicationStylesheet(type='text/css').
+    body {
+    background:
+    linear-gradient(
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.95)
+    ),
+    url('/static/images/background.jpg');
+    height: 100vh;
+    background-size: cover;
+    }
+    .mediaViewInfo {
+    --web-view-name: Survey;
+    --web-view-id: Survey;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: fit;
+    --web-center-horizontally: true;
+    --web-center-vertically: true;
+    --web-enable-deep-linking: true;
+    }
+    :root {
+    --web-view-ids: Survey;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    }
+    .Survey_Class {
+    position: absolute;
+    box-sizing: border-box;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    --web-view-name: Survey;
+    --web-view-id: Survey;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: fit;
+    --web-center-horizontally: true;
+    --web-center-vertically: true;
+    --web-enable-deep-linking: true;
+    }
+    .wednesday__20th_november_2019_Class {
+    position: absolute;
+    left: 81px;
+    top: 28px;
+    overflow: visible;
+    width: 309px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(112,112,112,1);
+    }
+    .Group_2_Class {
+    position: absolute;
+    width: 387px;
+    height: 161px;
+    left: 1464px;
+    top: 28px;
+    overflow: visible;
+    }
+    .digital_Class {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 216px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(0,0,0,1);
+    }
+    .pathways_Class {
+    position: absolute;
+    left: 43px;
+    top: 68px;
+    overflow: visible;
+    width: 345px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(0,0,0,1);
+    }
+    .kallum__take_the_survey_below__Class {
+    position: absolute;
+    left: 81px;
+    top: 232px;
+    overflow: visible;
+    width: 1489px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    color: rgba(46,46,46,1);
+    }
+    .Group_23_Class {
+    position: absolute;
+    width: 220px;
+    height: 82px;
+    left: 1619px;
+    top: 911px;
+    overflow: visible;
+    }
+    .Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    }
+    .submit_Class {
+    position: absolute;
+    left: 73px;
+    top: 26px;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgba(112,112,112,1);
+    }
+    .question_1__Class {
+    position: absolute;
+    left: 81px;
+    top: 353px;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+    }
+    .question_2__Class {
+    position: absolute;
+    left: 715px;
+    top: 353px;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+    }
+    .question_3__Class {
+    position: absolute;
+    left: 1350px;
+    top: 353px;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+    }
+    .question_5__Class {
+    position: absolute;
+    left: 1087px;
+    top: 637px;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+    }
+    .question_4__Class {
+    position: absolute;
+    left: 345px;
+    top: 637px;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+    }
+    .how_often_do_you_use_social_me_Class {
+    position: absolute;
+    left: 81px;
+    top: 413px;
+    overflow: visible;
+    width: 505px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    color: rgba(112,112,112,1);
+    }
+    .do_you_like_mathematics__Class {
+    position: absolute;
+    left: 715px;
+    top: 413px;
+    overflow: visible;
+    width: 363px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    color: rgba(112,112,112,1);
+    }
+    .do_you_like_speaking_to_people_Class {
+    position: absolute;
+    left: 1349px;
+    top: 413px;
+    overflow: visible;
+    width: 447px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    color: rgba(112,112,112,1);
+    }
+    .are_you_interested_in_technolo_Class {
+    position: absolute;
+    left: 1086px;
+    top: 697px;
+    overflow: visible;
+    width: 474px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    color: rgba(112,112,112,1);
+    }
+    .are_you_logical_or_spontaneous_Class {
+    position: absolute;
+    left: 344px;
+    top: 697px;
+    overflow: visible;
+    width: 452px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Myanmar Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    color: rgba(112,112,112,1);
+    }
+    .Line_5 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 81.5px;
+    top: 554.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_6 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 715.5px;
+    top: 554.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_7 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 1349.5px;
+    top: 554.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_9 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 1086.5px;
+    top: 838.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_10 {
+    overflow: visible;
+    position: absolute;
+    width: 490px;
+    height: 1px;
+    left: 344.5px;
+    top: 838.5px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .answer_1_Class {
+    position: absolute;
+    left: 82px;
+    top: 511px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    }
+    .answer_2_Class {
+    position: absolute;
+    left: 716px;
+    top: 511px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    }
+    .answer_3_Class {
+    position: absolute;
+    left: 1350px;
+    top: 511px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    }
+    .answer_5_Class {
+    position: absolute;
+    left: 1087px;
+    top: 795px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    }
+    .answer_4_Class {
+    position: absolute;
+    left: 345px;
+    top: 795px;
+    overflow: visible;
+    width: 490px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+    }
+    .Group_14_Class {
+    transform: matrix(1,0,0,1,539.5,521.9999) rotate(360deg);
+    transform-origin: center;
+    position: absolute;
+    width: 22.5px;
+    height: 11.25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    }
+    .Line_3 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 11.25px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_4 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Group_15_Class {
+    transform: matrix(1,0,0,1,1173.5,521.9999) rotate(360deg);
+    transform-origin: center;
+    position: absolute;
+    width: 22.5px;
+    height: 11.25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    }
+    .Line_3_A4_Line_8 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 11.25px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_4_A4_Line_9 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Group_16_Class {
+    transform: matrix(1,0,0,1,1807.5,521.9999) rotate(360deg);
+    transform-origin: center;
+    position: absolute;
+    width: 22.5px;
+    height: 11.25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    }
+    .Line_3_A4_Line_10 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 11.25px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_4_A4_Line_11 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Group_19_Class {
+    transform: matrix(1,0,0,1,1544.5,805.9999) rotate(360deg);
+    transform-origin: center;
+    position: absolute;
+    width: 22.5px;
+    height: 11.25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    }
+    .Line_3_A4_Line_12 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 11.25px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_4_A4_Line_13 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Group_20_Class {
+    transform: matrix(1,0,0,1,802.5,805.9999) rotate(360deg);
+    transform-origin: center;
+    position: absolute;
+    width: 22.5px;
+    height: 11.25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    }
+    .Line_3_A4_Line_14 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 11.25px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Line_4_A4_Line_15 {
+    overflow: visible;
+    position: absolute;
+    width: 11.957px;
+    height: 11.957px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    }
+    .Group_26_Class {
+    position: absolute;
+    width: 220px;
+    height: 82px;
+    left: 81px;
+    top: 911px;
+    overflow: visible;
+    }
+    .Rectangle_2_A4_Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    }
+    .back_Class {
+    position: absolute;
+    left: 84px;
+    top: 26px;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Malayalam Sangam MN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgba(112,112,112,1);
+    }
+    button {
+    background-color: transparent;
+    cursor: pointer;
+    }
+    select {
+      -webkit-appearance: none;
+      background-color: transparent;
+      cursor: pointer;
+      z-index: 999;
+    }
+    select:focus {
+      outline: none;
+    }
+    .Opt {
+      opacity: 0.5;
+    }
+
+  script#applicationScript(type='text/javascript' src='/static/xd_javascript/survey.js')
+
+#Survey.Survey_Class
+  .wednesday__20th_november_2019_Class
+    span#date
+
+  form(action='home' method='POST')
+    button.Group_2_Class(type='submit')
+      .digital_Class
+        span digital
+      .pathways_Class
+        span pathways
+
+  .kallum__take_the_survey_below__Class
+    span #{firstName}, take the survey below to find your new digital career reccomendations
+
+  .question_1__Class
+    span question 1,
+
+  .question_2__Class
+    span question 2,
+
+  .question_3__Class
+    span question 3,
+
+  .question_4__Class
+    span question 4,
+
+  .question_5__Class
+    span question 5,
+
+  .how_often_do_you_use_social_me_Class
+    span how often do you use social media?
+
+  .do_you_like_mathematics__Class
+    //- span do you like mathematics?
+    span are you a mathematical person?
+
+  .do_you_like_speaking_to_people_Class
+    //- span do you like speaking to people?
+    span would you say you are creative minded?
+
+  .are_you_logical_or_spontaneous_Class
+    span are you logical or spontaneous?
+
+  .are_you_interested_in_technolo_Class
+    span how much do you like technology?
+
+  svg.Line_5(viewbox='0 0 490 1')
+    path.Line_5_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+  svg.Line_6(viewbox='0 0 490 1')
+    path.Line_6_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+  svg.Line_7(viewbox='0 0 490 1')
+    path.Line_7_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+  svg.Line_9(viewbox='0 0 490 1')
+    path.Line_9_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+  svg.Line_10(viewbox='0 0 490 1')
+    path.Line_10_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 0 L 490 0')
+
+  form(action='topJobs' method='POST')
+    select.answer_1_Class(required='' name='answerA')
+      option.Opt(value='' selected='')
+        span select answer
+      option(value='1')
+        span never
+      option(value='2')
+        span sometimes
+      option(value='3')
+        span daily
+      option(value='4')
+        span multiple times a day
+
+    select.answer_2_Class(required='' name='answerB')
+      option.Opt(value='' selected='')
+        span select answer
+      option(value='0')
+        span strongly agree
+      option(value='1')
+        span agree
+      option(value='2')
+        span neutral
+      option(value='3')
+        span disagree
+      option(value='4')
+        span strongly disagree
+
+    select.answer_3_Class(required='' name='answerC')
+      option.Opt(value='' selected='')
+        span select answer
+      option(value='4')
+        span strongly agree
+      option(value='3')
+        span agree
+      option(value='2')
+        span neutral
+      option(value='1')
+        span disagree
+      option(value='0')
+        span strongly disagree
+
+    select.answer_4_Class(required='' name='answerD')
+      option.Opt(value='' selected='')
+        span select answer
+      option(value='1')
+        span logical
+      option(value='4')
+        span spontaneous
+
+    select.answer_5_Class(required='' name='answerE')
+      option.Opt(value='' selected='')
+        span select answer
+      option(value='4')
+        span a lot
+      option(value='3')
+        span slightly
+      option(value='2')
+        span i'm not bothered
+      option(value='1')
+        span not a fan
+
+    button.Group_23_Class(type='submit')
+      svg.Rectangle_2
+        rect.Rectangle_2_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' rx='0' ry='0' x='0' y='0' width='220' height='82')
+      .submit_Class
+        span submit
+
+  .Group_14_Class
+    svg.Line_3(viewbox='0 0 11.25 11.25')
+      path.Line_3_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 11.25011539459229 L 11.25011539459229 0')
+    svg.Line_4(viewbox='0 0 11.25 11.25')
+      path.Line_4_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 11.25011539459229 11.25011539459229 L 0 0')
+
+  .Group_15_Class
+    svg.Line_3_A4_Line_8(viewbox='0 0 11.25 11.25')
+      path.Line_3_A4_Line_8_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 11.25011539459229 L 11.25011539459229 0')
+    svg.Line_4_A4_Line_9(viewbox='0 0 11.25 11.25')
+      path.Line_4_A4_Line_9_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 11.25011539459229 11.25011539459229 L 0 0')
+
+  .Group_16_Class
+    svg.Line_3_A4_Line_10(viewbox='0 0 11.25 11.25')
+      path.Line_3_A4_Line_10_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 11.25011539459229 L 11.25011539459229 0')
+    svg.Line_4_A4_Line_11(viewbox='0 0 11.25 11.25')
+      path.Line_4_A4_Line_11_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 11.25011539459229 11.25011539459229 L 0 0')
+
+  .Group_19_Class
+    svg.Line_3_A4_Line_12(viewbox='0 0 11.25 11.25')
+      path.Line_3_A4_Line_12_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 11.25011539459229 L 11.25011539459229 0')
+    svg.Line_4_A4_Line_13(viewbox='0 0 11.25 11.25')
+      path.Line_4_A4_Line_13_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 11.25011539459229 11.25011539459229 L 0 0')
+
+  .Group_20_Class
+    svg.Line_3_A4_Line_14(viewbox='0 0 11.25 11.25')
+      path.Line_3_A4_Line_14_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 0 11.25011539459229 L 11.25011539459229 0')
+    svg.Line_4_A4_Line_15(viewbox='0 0 11.25 11.25')
+      path.Line_4_A4_Line_15_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' d='M 11.25011539459229 11.25011539459229 L 0 0')
+  
+  form(action='skills' method='POST')
+    button.Group_26_Class(type='submit')
+      svg.Rectangle_2_A4_Rectangle_4
+        rect.Rectangle_2_A4_Rectangle_4_Class(fill='transparent' stroke='rgba(112,112,112,1)' stroke-width='1px' stroke-linejoin='miter' stroke-linecap='butt' stroke-miterlimit='4' shape-rendering='auto' rx='0' ry='0' x='0' y='0' width='220' height='82')
+      .back_Class
+        span back
+
+script.
+  let d = new Date();
+  let day = d.getDate();
+  let weekday = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'][d.getDay()];
+  let month = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'][d.getMonth()];
+  let year = d.getFullYear();
+  let suffix = (day == 1) || (day == 21) || (day == 31) ? 'st' :
+  (day == 2) || (day == 22) ? 'nd' :
+  (day == 3) || (day == 23) ? 'rd' : 'th';
+  let dateString = `${weekday}, ${day}${suffix} ${month} ${year}`;
+  document.getElementById('date').innerHTML = dateString;
