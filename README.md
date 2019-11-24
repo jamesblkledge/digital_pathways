@@ -61,4 +61,4 @@ INSERT INTO Student (EmailAddress, Password, FirstName, LastName, SixthFormYear,
 $ node index.js
 ```
 
-8. Lastly, simply head over to ```localhost:3000``` in your browser and voilà, the web application should now be up and running!
+8. Lastly, simply head over to ```http://localhost:3000``` in your browser and voilà, the web application should now be up and running!
