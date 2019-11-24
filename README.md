@@ -21,7 +21,7 @@ $ cd digital_pathways
 4. Now that we're in the correct directory and have node installed, run the following command:
 
 ```bash
-$ node i
+$ npm i
 ```
 
 > This will make sure that all of the node modules required are installed.
